@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "updateing submodule ..."
-git submodule update
+git submodule update --init
 
 echo "copying font to system ..."
 cp ~/.vim/font/YaHei Consolas Hybrid.ttf /usr/share/fonts/truetype
