@@ -21,7 +21,7 @@ fi
 echo "copying qsword's vim files ...'"
 mkdir ~/.vim
 cp -r ./* ~/.vim/
-cp ~/.vim/.vimrc ~/.vimrc
+cp .vimrc ~/.vimrc
 
 echo "compile YouCompleteMe ..."
 yum install -y llvm
@@ -30,12 +30,12 @@ yum install -y cmake
 
 cd /etc/yum.repos.d
 wget http://people.centos.org/tru/devtools-1.1/devtools-1.1.repo 
-yum --enablerepo=testing-1.1-devtools-6 install devtoolset-1.1-gcc devtoolset-1.1-gcc-c++
+yum --enablerepo=testing-1.1-devtools-6 install -y devtoolset-1.1-gcc devtoolset-1.1-gcc-c++
 /opt/centos/devtoolset-1.1/root/usr/bin/
 ln -s /opt/centos/devtoolset-1.1/root/usr/bin/* /usr/local/bin/
 hash -r
 
 cd ~/.vim/bundle/YouCompleteMe
-./install.sh --clang-completer --system-libclang --system-boost
+#./install.sh --clang-completer --system-libclang --system-boost
 
 exit 0

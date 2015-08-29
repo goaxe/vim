@@ -31,7 +31,7 @@ Bundle 'fholgado/minibufexpl.vim'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'fatih/vim-go'
 Bundle 'majutsushi/tagbar'
-Bundle 'davidhalter/jedi-vim'
+"Bundle 'davidhalter/jedi-vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Valloric/YouCompleteMe'
 "Bundle 'Valloric/ycmd'
@@ -266,14 +266,14 @@ map <Leader>bl :MBEToggle<cr>
 map <F2> :MBEbn<cr>
 map <F1> :MBEbp<cr>
 
-" davidhalter/jedi-vim
-let g:jedi#goto_command = "<leader>d"
-let g:jedi#goto_assignments_command = "<leader>g"
-let g:jedi#goto_definitions_command = "<leader>d"
-let g:jedi#documentation_command = "K"
-let g:jedi#usages_command = "<leader>n"
-let g:jedi#completions_command = "<C-Space>"
-let g:jedi#rename_command = "<leader>r"
+"" davidhalter/jedi-vim
+"let g:jedi#goto_command = "<leader>d"
+"let g:jedi#goto_assignments_command = "<leader>g"
+"let g:jedi#goto_definitions_command = "<leader>d"
+"let g:jedi#documentation_command = "K"
+"let g:jedi#usages_command = "<leader>n"
+"let g:jedi#completions_command = "<C-Space>"
+"let g:jedi#rename_command = "<leader>r"
 
 " kien/rainbow_parentheses.vim
 let g:rbpt_colorpairs = [

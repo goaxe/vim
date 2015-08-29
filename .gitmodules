@@ -38,9 +38,9 @@
     path = bundle/tagbar
     url = https://github.com/majutsushi/tagbar.git
 
-[submodule "davidhalter/jedi-vim"]
-    path = bundle/jedi-vim
-    url = https://github.com/davidhalter/jedi-vim.git
+;[submodule "davidhalter/jedi-vim"]
+    ;path = bundle/jedi-vim
+    ;url = https://github.com/davidhalter/jedi-vim.git
 
 [submodule "kien/ctrlp.vim"]
     path = bundle/ctrlp.vim
