@@ -1,0 +1,95 @@
+[submodule "bundle/Vundle.vim"]
+    path = bundle/Vundle.vim
+    url = https://github.com/VundleVim/Vundle.vim.git
+
+[submodule "bundle/authorinfo"]
+    path = bundle/authorinfo
+    url = https://github.com/dantezhu/authorinfo.git
+
+[submodule "bundle/molokai"]
+    path = bundle/molokai
+    url = https://github.com/tomasr/molokai.git
+
+[submodule "bundle/solarized"]
+    path = bundle/solarized
+    url = https://github.com/altercation/solarized.git
+
+[submodule "scrooloose/nerdtree"]
+    path = bundle/nerdtree
+    url = https://github.com/scrooloose/nerdtree.git
+
+[submodule "scrooloose/nerdcommenter"]
+    path = bundle/nerdcommenter
+    url = https://github.com/scrooloose/nerdcommenter.git
+
+[submodule "fholgado/minibufexpl.vim"]
+    path = bundle/minibufexpl.vim
+    url = https://github.com/fholgado/minibufexpl.vim.git
+
+[submodule "kien/rainbow_parentheses.vim"]
+    path = bundle/rainbow_parentheses.vim
+    url = https://github.com/kien/rainbow_parentheses.vim.git
+
+[submodule "fatih/vim-go"]
+    path = bundle/vim-go
+    url = https://github.com/fatih/vim-go.git
+
+[submodule "majutsushi/tagbar"]
+    path = bundle/tagbar
+    url = https://github.com/majutsushi/tagbar.git
+
+[submodule "davidhalter/jedi-vim"]
+    path = bundle/jedi-vim
+    path = https://github.com/davidhalter/jedi-vim.git
+
+[submodule "kien/ctrlp.vim"]
+    path = bundle/ctrlp.vim
+    path = https://github.com/kien/ctrlp.vim.git
+
+[submodule "Valloric/YouCompleteMe"]
+    path = bundle/YouCompleteMe
+    path = https://github.com/Valloric/YouCompleteMe.git
+
+[submodule "dkprice/vim-easygrep"]
+    path = bundle/vim-easygrep
+    path = https://github.com/dkprice/vim-easygrep.git
+
+[submodule "Lokaltog/vim-powerline"]
+    path = bundle/vim-powerline
+    path = https://github.com/Lokaltog/vim-powerline.git
+
+[submodule "Mizuchi/STL-Syntax"]
+    path = bundle/STL-Syntax
+    path = https://github.com/Mizuchi/STL-Syntax.git
+
+[submodule "xolox/vim-misc"]
+    path = bundle/vim-misc
+    path = https://github.com/xolox/vim-misc.git
+
+[submodule "xolox/vim-lua-ftplugin"]
+    path = bundle/vim-lua-ftplugin
+    path = https://github.com/xolox/vim-lua-ftplugin.git
+
+[submodule "dyng/ctrlsf.vim"]
+    path = bundle/ctrlsf.vim
+    path = https://github.com/dyng/ctrlsf.vim.git
+
+[submodule "Yggdroot/indentLine"]
+    path = bundle/indentLine
+    path = https://github.com/Yggdroot/indentLine.git
+
+[submodule "vim-scripts/a.vim"]
+    path = bundle/a.vim
+    path = https://github.com/vim-scripts/a.vim.git
+
+[submodule "derekwyatt/vim-fswitch"]
+    path = bundle/vim-fswitch
+    path = https://github.com/derekwyatt/vim-fswitch.git
+
+[submodule "derekwyatt/vim-protodef"]
+    path = bundle/vim-protodef
+    path = https://github.com/derekwyatt/vim-protodef.git
+
+[submodule "gcmt/wildfire.vim"]
+    path = bundle/wildfire.vim
+    path = https://github.com/gcmt/wildfire.vim.git
