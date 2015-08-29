@@ -21,6 +21,13 @@ fi
 echo "copying qsword's vim files ...'"
 mkdir ~/.vim
 cp -r ./* ~/.vim/
-ln -s ~/.vim/.vimrc ~/.vimrc
+cp ~/.vim/.vimrc ~/.vimrc
+
+echo "compile YouCompleteMe ..."
+yum install -y llvm
+yum install -y boost
+yum install -y cmake
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer --system-libclang --system-boost
 
 exit 0
