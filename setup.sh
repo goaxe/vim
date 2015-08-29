@@ -28,6 +28,6 @@ yum install -y llvm
 yum install -y boost
 yum install -y cmake
 cd ~/.vim/bundle/YouCompleteMe
-./install.py --clang-completer --system-libclang --system-boost
+./install.sh --clang-completer --system-libclang --system-boost
 
 exit 0
