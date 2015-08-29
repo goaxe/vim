@@ -220,6 +220,7 @@ let g:vimrc_email='huangjian1993@gmail.com'
 let g:vimrc_homepage='https://cn.linkedin.com/in/huangjian1993'
 nnoremap <leader>at :AuthorInfo<CR>
 
+" altercation/vim-colors-solarized tomasr/molokai
 " colorscheme
 set background=dark
 if has("gui_running")
@@ -227,6 +228,7 @@ if has("gui_running")
 else
   "color molokai
 endif
+"colorscheme solarized
 "colorscheme molokai
 "colorscheme phd
 
