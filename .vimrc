@@ -23,7 +23,7 @@ Bundle 'VundleVim/Vundle.vim'
 
 Bundle 'dantezhu/authorinfo'
 Bundle 'tomasr/molokai'
-Bundle 'altercation/solarized'
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 "Bundle 'scrooloose/syntastic'

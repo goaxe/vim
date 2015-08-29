@@ -10,8 +10,8 @@
     path = bundle/molokai
     url = https://github.com/tomasr/molokai.git
 
-[submodule "bundle/solarized"]
-    path = bundle/solarized
+[submodule "altercation/vim-colors-solarized"]
+    path = bundle/vim-colors-solarized
     url = https://github.com/altercation/solarized.git
 
 [submodule "scrooloose/nerdtree"]
