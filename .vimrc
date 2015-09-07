@@ -24,29 +24,31 @@ Bundle 'VundleVim/Vundle.vim'
 Bundle 'dantezhu/authorinfo'
 Bundle 'tomasr/molokai'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'qsword/vim-colors-phd'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
-"Bundle 'scrooloose/syntastic'
 Bundle 'fholgado/minibufexpl.vim'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'fatih/vim-go'
 Bundle 'majutsushi/tagbar'
-"Bundle 'davidhalter/jedi-vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Valloric/YouCompleteMe'
-"Bundle 'Valloric/ycmd'
 Bundle 'dkprice/vim-easygrep'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'Mizuchi/STL-Syntax'
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-lua-ftplugin'
 Bundle 'dyng/ctrlsf.vim'
-"Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'Yggdroot/indentLine'
 Bundle 'vim-scripts/a.vim'
 Bundle 'derekwyatt/vim-fswitch'
 Bundle 'derekwyatt/vim-protodef'
 Bundle 'gcmt/wildfire.vim'
+
+"Bundle 'scrooloose/syntastic'
+"Bundle 'nathanaelkane/vim-indent-guides'
+"Bundle 'Valloric/ycmd'
+"Bundle 'davidhalter/jedi-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()          " required
@@ -68,7 +70,7 @@ filetype plugin indent on  " required
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 let mapleader=";"
-colorscheme default
+"colorscheme default
 
 map <Leader>lb 0
 map <Leader>le $
@@ -143,9 +145,10 @@ set backspace=2
 set fillchars=vert:\ ,stl:\ ,stlnc:\
 
 set scrolloff=3
-set list
+"set list
 "set listchars=tab:\>\ ,trail:.,extends:>,precedes:<,eol:$
-set listchars=trail:.,extends:>,precedes:<,eol:$
+"set listchars=trail:.,extends:>,precedes:<,eol:$
+"set listchars=eol:$
 "set hlsearch
 set guifont=YaHei\ Consolas\ Hybrid\ 16
 set wrap
@@ -227,6 +230,7 @@ if has("gui_running")
   colorscheme solarized
 else
   "color molokai
+  "color phd
 endif
 "colorscheme solarized
 "colorscheme molokai
@@ -369,7 +373,7 @@ let g:ycm_complete_in_comments=1
 let g:ycm_confirm_extra_conf=0
 let g:ycm_collect_identifiers_from_tags_files=1
 let g:ycm_min_num_of_chars_for_completion=1
-"let g:ycm_cache_omnifunc=0
+let g:ycm_cache_omnifunc=0
 let g:ycm_seed_identifiers_with_syntax=1
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
 
